@@ -290,7 +290,7 @@ void PentrisGame::DrawHandling(float fElapsedTime)
     DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 340, "CONTROLS");
     DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 360, "Left/Right/Down Arrow: Move");
     DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 380, "C: Rotate");
-    DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 400, "R: Reflect");
+    DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 400, "V: Reflect");
     DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 420, "Space: Drop");
     DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 440, "Enter: New Game");
     DrawString(X_OFFSET + pentrisField.Width() * PIXELS_PER_UNIT + 20, 480, "A: Let the machine play");
